@@ -359,7 +359,7 @@ void gen_pool_free(struct gen_pool *pool, u64 addr, size_t size)
 		}
 	}
 	rcu_read_unlock();
-	BUG();
+	//BUG();
 }
 EXPORT_SYMBOL(gen_pool_free);
 
